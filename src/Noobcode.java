@@ -37,7 +37,7 @@ public class Noobcode {
         System.out.println("\n~ - Побитовое унарное НЕ");
         System.out.println("& - Побитовое И");
         System.out.println("| - Побитовое ИЛИ");
-        System.out.println("^ - Побитовое исключающее ИЛИ");
+        System.out.println("^ - Побитовое исключающее ИЛИ (XOR)");
         System.out.println(">> - Сдвиг вправо");
         System.out.println(">>> - Сдвиг вправо с заполнением нулями");
         System.out.println("&= - Побитовое И с присваиванием");
