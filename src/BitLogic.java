@@ -7,19 +7,20 @@ public class BitLogic {
         int a = 3, b = 6, //0011,0110 в двоичной системе
                 c, d, e, f, g;
         c = a | b;
+        System.out.println("c равно " +c);
         d = a & b;
         e = a ^ b;
         f = (~a & b) | (a & ~b);
         g = ~a & 0x0f;
-        {
-            System.out.println();
-            System.out.println();
-            System.out.println();
-            System.out.println();
-            System.out.println();
-            System.out.println();
-            System.out.println();
 
-        }
+            System.out.println("a равно "+ binary[a]);
+            System.out.println("b равно "+ binary[b]);
+            System.out.println("a | b равно " + binary[c]);
+            System.out.println("a & b равно " + binary[d]);
+            System.out.println("a ^ b равно " + binary[e]);
+            System.out.println("(~a & b) | (a & ~b) равно " + binary[f]);
+            System.out.println("~a & 0x0f равно " + binary[g]);
+
+
     }
 }

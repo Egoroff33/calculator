@@ -1,7 +1,7 @@
 public class Noobcode {
     public static void main(String[] args) {
         // База
-        System.out.println("Всегда ставить фигурные скобки, так Сашка сказал");
+        System.out.println("Всегда ставить фигурные скобки, так Сашка сказал, и не ставит их на sout");
         System.out.println("Имена переменных всегда с маленькой буквы");
 
         // Полезные комбы
