@@ -10,7 +10,9 @@ public class ByteUShift {
         byte e = (byte) ((b & 0xff) >> 4);
 
         System.out.println("b равно " + b + " = " + Integer.toBinaryString(b));
-        System.out.println("С равно " + c + " = " + Integer.toBinaryString(c));
+        System.out.println("с равно " + c + " = " + Integer.toBinaryString(c));
+        System.out.println("d равно " + d + " = " + Integer.toBinaryString(d));
+        System.out.println("e равно " + e + " = " + Integer.toBinaryString(e));
 
     }
 }
