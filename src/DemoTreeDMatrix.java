@@ -2,7 +2,7 @@ public class DemoTreeDMatrix {
     public static void main(String[] args) {
         int [][][] TreeMatrix = new int [3][4][5];
         int i, j, k;
-        String str = "ебаные многомерные массивы";
+        String str = "вонючие многомерные массивы";
 
         for (i = 0; i < TreeMatrix.length; i++) {
             for (j = 0; j < TreeMatrix[i].length; j++) {
