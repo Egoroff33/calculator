@@ -16,6 +16,8 @@ public class Noobcode {
         System.out.println("> - Больше");
         System.out.println("== - Равно");
 
+        System.out.println();
+
         //Разделительные символы
         // () - Применяется для указания списков параметров в определениях и вызовах методов.
         // Также используется для определения порядка выполнения операция в обычных выражениях, выражениях
@@ -32,6 +34,7 @@ public class Noobcode {
         // ... - Указывает параметр с переменным количеством аргументов.
         // @ - "эт", начинает аннотацию.
 
+        System.out.println();
 
         // Побитовые операции
         // Присваивание - это знак "="
@@ -62,6 +65,8 @@ public class Noobcode {
         System.out.println("*= - Умножение с присваиванием");
         System.out.println("/= - Деление с присваиванием");
 
+        System.out.println();
+
         // Символьные управляющие последовательности
         // \ddd - Восьмеричный символ (ddd)
         // \ uxxxx - Шестнадцатеричный символ Unicode (xxxx) (без пробела)
@@ -78,6 +83,8 @@ public class Noobcode {
         // \%Ns количество символов для строки (N = число)
         // \%NRd количество символов для чисел (Decimal) N = на что менять, R = количество символов
 
+        System.out.println();
+
         // Операции отношения
         // == - Равно
         // != - Не равно
@@ -85,6 +92,8 @@ public class Noobcode {
         // < - Меньше
         // >= - Больше или равно
         // <= - Меньше или равно
+
+        System.out.println();
 
         // Логические операции Boolean
         // & - Логическое И - если одно из значений False, будет False
@@ -100,6 +109,23 @@ public class Noobcode {
         // != - Не равно
         // ?: - Тернарная операция "если-то-иначе"
 
+        //Старшинство операций по порядку
+        System.out.println("Приоритетность операций: ");
+        System.out.println("\n1. ++/-- (постфикс)");
+        System.out.println("2. ++/-- (префикс), ~, !, +/- (унарный), (приведение типа)");
+        System.out.println("3. *, /, %");
+        System.out.println("4. +/-");
+        System.out.println("5. >>, >>>, <<");
+        System.out.println("6. >, >=, <, <=, instanceof");
+        System.out.println("7. &");
+        System.out.println("8. ==, !=");
+        System.out.println("9. ^");
+        System.out.println("10. |");
+        System.out.println("11. &&");
+        System.out.println("12. ||");
+        System.out.println("13. ?:");
+        System.out.println("14. ->");
+        System.out.println("15. =, операция =");
 
     }
 }
