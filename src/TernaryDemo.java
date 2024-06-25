@@ -1,4 +1,6 @@
 public class TernaryDemo {
+
+    //Тернарная операция "если-то-иначе"
     public static void main(String[] args) {
         int i = 10, k;
         k = i < 0 ? -i : i; //получить абсолютную величину i

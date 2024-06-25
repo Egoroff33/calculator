@@ -4,16 +4,16 @@ public class SampleSwitch {
             switch (i) {
                 case 0:
                     System.out.println("i равно " + i);
-                    break;
+                   //break;
                 case 1:
                     System.out.println("i равно " + i);
-                    break;
+                  //break;
                 case 2:
                     System.out.println("i равно " + i);
-                    break;
+                  //break;
                 case 3:
                     System.out.println("i равно " + i);
-                    break;
+                  //break;
                 default:
                     System.out.println("i больше трех и равен " + i);
 
