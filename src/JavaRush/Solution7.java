@@ -10,6 +10,8 @@ public class Solution7 {
         cat.owner = woman;
         dog.owner = woman;
         fish.owner = woman;
+        System.out.println(woman.name);
+
     }
 
     public static class Cat {
@@ -25,5 +27,7 @@ public class Solution7 {
     }
 
     public static class Woman {
+        String name = "Sofiya";
     }
+
 }
