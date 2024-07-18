@@ -13,7 +13,33 @@ public class Artifact {
 
 Создай класс Artifact, описывающий хранящиеся в музее древности, и напиши необходимое количество конструкторов для него. В методе main() создай по одному артефакту каждого вида.
      */
+    int number;
+    String cultures;
+    int age;
+
+    Artifact(int number){
+        this.number = number;
+    }
+    Artifact(int number, String cultures){
+        this.number = number;
+        this.cultures = cultures;
+    }
+
+    Artifact(int number, String cultures, int age){
+        this.number = number;
+        this.cultures = cultures;
+        this.age = age;
+
+    }
+
+
     public static void main(String[] args) {
+
+        Artifact artifact1 = new Artifact(1);
+        Artifact artifact2 = new Artifact(2, "Aztec");
+        Artifact artifact3 = new Artifact(3, "Aztec", 12);
+
+        System.out.println(artifact1.number);
 
     }
 }
